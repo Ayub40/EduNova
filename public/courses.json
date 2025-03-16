@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "image": "https://themes.stackbros.in/eduport-next/assets/08-DgNLqCM_.jpg",
+        "title": "Sketch from A to Z: for App Designer",
+        "level": "All level",
+        "rating": 4,
+        "duration": "12h 56m",
+        "lectures": 15,
+        "category": "Graphic Design",
+        "description": "Proposal indulged no do sociable he throwing settling."
+    },
+    {
+        "id": 2,
+        "image": "https://themes.stackbros.in/eduport-next/assets/02-CLuao9PX.jpg",
+        "title": "Graphic Design Masterclass",
+        "level": "Beginner",
+        "rating": 4.5,
+        "duration": "9h 56m",
+        "lectures": 65,
+        "category": "Graphic Design",
+        "description": "Rooms oh fully taken by worse do Points afraid but may end Rooms Points afraid but may end Rooms."
+    },
+    {
+        "id": 3,
+        "image": "https://themes.stackbros.in/eduport-next/assets/03-JifBAStH.jpg",
+        "title": "Create a Design System in Figma",
+        "level": "Beginner",
+        "rating": 4.5,
+        "duration": "5h 56m",
+        "lectures": 32,
+        "category": "Graphic Design",
+        "description": "Rooms oh fully taken by worse do. Points afraid but may end afraid but may end."
+    },
+    {
+        "id": 4,
+        "image": "https://themes.stackbros.in/eduport-next/assets/07-dJzvunmQ.jpg",
+        "title": "Deep Learning with React-Native",
+        "level": "Beginner",
+        "rating": 4.5,
+        "duration": "9h 56m",
+        "lectures": 65,
+        "category": "Development",
+        "description": "Far advanced settling say finished raillery. Offered chiefly farther."
+    },
+    {
+        "id": 5,
+        "image": "https://themes.stackbros.in/eduport-next/assets/11-CgX7qW4Y.jpg",
+        "title": "Build Responsive Websites with HTML",
+        "level": "All level",
+        "rating": 4,
+        "duration": "18h 56m",
+        "lectures": 99,
+        "category": "Web Development",
+        "description": "Far advanced settling say finished raillery. Offered chiefly farther."
+    },
+    {
+        "id": 6,
+        "image": "https://themes.stackbros.in/eduport-next/assets/12-BBA2zDwG.jpg",
+        "title": "Build Websites with CSS",
+        "level": "Beginner",
+        "rating": 4,
+        "duration": "15h 30m",
+        "lectures": 68,
+        "category": "Web Development",
+        "description": "Far advanced settling say finished raillery. Offered chiefly farther."
+    },
+    {
+        "id": 7,
+        "image": "https://themes.stackbros.in/eduport-next/assets/04-RS5CBO1g.jpg",
+        "title": "Learn Invision",
+        "level": "All level",
+        "rating": 4.5,
+        "duration": "36h 30m",
+        "lectures": 72,
+        "category": "Graphic Design",
+        "description": "Arrived off she elderly beloved him Course regard to up he hardly."
+    },
+    {
+        "id": 8,
+        "image": "https://themes.stackbros.in/eduport-next/assets/09-wyx1hhTj.jpg",
+        "title": "JavaScript: Full Understanding",
+        "level": "All level",
+        "rating": 3.5,
+        "duration": "6h 56m",
+        "lectures": 82,
+        "category": "Development",
+        "description": "Far advanced settling say finished raillery. Offered chiefly farther."
+    }
+]
