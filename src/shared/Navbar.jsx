@@ -6,6 +6,7 @@ const Navbar = () => {
         <li><Link to='/'>Home</Link> </li>
         <li><Link to='/allClasses'>All Classes</Link></li>
         <li><Link to='/TeacherApply'>Teach On SkillShare</Link></li>
+        {/* <li><Link to='/signIn'></Link></li> */}
     </>
 
     return (
@@ -34,15 +35,18 @@ const Navbar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">EduNova</a>
+                {/* <a className="btn btn-ghost text-xl">EduNova</a> */}
+                <button><img src="https://i.ibb.co.com/q3zhWkty/EduNova.png" width={150} className="mx-auto" /></button>
+                {/* <img src="https://i.ibb.co.com/hRY2Q8H2/Edu-Nova-2.png" width={150} className="mx-auto" /> */}
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {navOptions}
                 </ul>
             </div>
-            <div className="navbar-end">
-            <button className="btn  text-xl">Sign In</button>
+            <div className="navbar-end gap-5">
+                <Link to='/signIn'><button className="btn  text-xl">Sign In</button></Link>
+                <Link to='/signUp'><button className="btn  text-xl">Sign Up</button></Link>
             </div>
         </div>
     );
