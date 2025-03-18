@@ -13,7 +13,8 @@ const TrendCard = ({ course }) => {
                     <p className="bg-[#24292D] text-white p-1 text-xs font-semibold rounded-md px-2 ">{course.level}</p>
                     <CiBookmark className="ml-auto text-2xl text-gray-600 hover:text-[#066AC9] cursor-pointer" />
                 </div>
-                <h2 className="text-2xl text-[#24292D] hover:text-[#066AC9] hover:cursor-pointer font-bold">{course.title}</h2>
+                {/* <h2 className="text-2xl text-[#24292D] hover:text-[#066AC9] hover:cursor-pointer font-bold">{course.title}</h2> */}
+                <h2 className="text-2xl text-[#24292D] hover:text-[#066AC9] hover:cursor-pointer font-bold">{course.title.length > 50 ? `${course.title.slice(0, 50)}...` : course.title}</h2>
                 <div className="mt-2 flex justify-between">
                     <span className="text-yellow-500">⭐ {course.rating}</span>
                     <span className="ml-4">{course.studentNumber}<span className="text-sm text-[#8C8B8B]"> ( Students )</span></span>
