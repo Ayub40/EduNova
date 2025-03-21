@@ -10,7 +10,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-base-100 max-w-screen-xl m-auto relative">
+        <div className="navbar fixed z-10 bg-base-100 lg:max-w-screen-[1700px] m-auto ">
             {/* <div className='absolute inset-0 blur-xl ' style={{ background: "linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.26) 40.92%, rgba(204, 171, 238, 0) 70.35%)" }}></div> */}
             <div className=""></div>
             <div className="navbar-start">
@@ -36,7 +36,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 {/* <a className="btn btn-ghost text-xl">EduNova</a> */}
-                <button><img src="https://i.ibb.co.com/q3zhWkty/EduNova.png" width={150} className="mx-auto" /></button>
+                <button><img src="https://i.ibb.co.com/q3zhWkty/EduNova.png" width={150}  className="mx-auto" /></button>
                 {/* <img src="https://i.ibb.co.com/hRY2Q8H2/Edu-Nova-2.png" width={150} className="mx-auto" /> */}
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -45,8 +45,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-5">
-                <Link to='/signIn'><button className="btn  text-xl">Sign In</button></Link>
-                <Link to='/signUp'><button className="btn  text-xl">Sign Up</button></Link>
+                <Link to='/signIn'><button className="btn  md:text-xl">Sign In</button></Link>
+                <Link to='/signUp'><button className="btn  md:text-xl">Sign Up</button></Link>
             </div>
         </div>
     );
