@@ -33,7 +33,7 @@ const BecomeInstructors = () => {
 
 
     return (
-        <div className="relative">
+        <div className="relative ">
             <div>
                 <TeacherApply></TeacherApply>
                 <TeacherDescription></TeacherDescription>

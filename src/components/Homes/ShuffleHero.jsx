@@ -6,7 +6,7 @@ import onlineEducation from "../../assets/online class.json";
 
 const ShuffleHero = () => {
     return (
-        <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-7xl mx-auto relative">
+        <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-7xl mx-auto relative ">
             {/* <div className='absolute inset-0 blur-xl ' style={{ background: "linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.26) 40.92%, rgba(204, 171, 238, 0) 70.35%)" }}></div> */}
 
             {/* <div
@@ -15,7 +15,7 @@ const ShuffleHero = () => {
 
             {/* <div className='absolute inset-0 blur-xl ' style={{ background: "linear-gradient(143.6deg, rgba(3, 185, 124, 0) 20.79%, rgba(43, 170, 190, 0.26) 40.92%, rgba(234, 227, 246, 0) 70.35%)" }}></div> */}
             <div className="">
-                <span className="block mb-4 text-xs md:text-lg text-[#2AB884] font-semibold">
+                <span className="block mb-4 text-xs md:text-lg text-[#2AB884] font-semibold mt-5">
                     Learn For Peace
                 </span>
                 <h3 className="text-3xl md:text-5xl font-bold">
@@ -41,7 +41,7 @@ const ShuffleHero = () => {
                     Get Started
                 </button>
             </div>
-            <div className="">
+            <div className="mt-3">
                 <Lottie animationData={onlineEducation} />
             </div>
             {/* <ShuffleGrid /> */}
