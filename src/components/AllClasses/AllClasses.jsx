@@ -55,9 +55,14 @@ const AllClasses = () => {
                         </svg>
                         <select className="w-full px-3 py-2 text-sm text-gray-600 bg-white border rounded-lg shadow-sm outline-none appearance-none focus:ring-offset-2 focus:ring-indigo-600 focus:ring-2">
                             <option>Category</option>
-                            <option>Software engineer</option>
-                            <option>IT manager</option>
-                            <option>UI / UX designer</option>
+                            <option>Development</option>
+                            <option>Marketing</option>
+                            <option>Accounting</option>
+                            <option>IT & Software</option>
+                            <option>Designing</option>
+                            <option>Medical</option>
+                            <option>Photography</option>
+                            <option>Lifestyle</option>
                         </select>
                     </div>
                     <div className="relative w-72 max-w-full mx-auto mt-4">
