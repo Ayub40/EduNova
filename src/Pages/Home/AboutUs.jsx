@@ -7,8 +7,10 @@ const AboutUs = () => {
         <div className="flex mb-24 max-w-7xl mx-auto">
             <div className="flex mt-2 w-[620px] h-[550px] relative">
                 <div className="h-[371px] w-[294px]">
+                    {/* <img className="mt-3 ml-1 outline outline-offset-4 outline-2 outline-[#DDE1E7] rounded-tr-[60px] rounded-bl-[60px]"
+                        src="https://html.rrdevs.net/edcare/assets/img/images/about-img-1.jpg" alt="" /> */}
                     <img className="mt-3 ml-1 outline outline-offset-4 outline-2 outline-[#DDE1E7] rounded-tr-[60px] rounded-bl-[60px]"
-                        src="https://html.rrdevs.net/edcare/assets/img/images/about-img-1.jpg" alt="" />
+                        src="	https://eduna-template.vercel.app/eduna/assets/images/team/team-1/3.png" alt="" />
                     <div className="flex gap-3 h-[110px] w-[290px] border border-[#07A698] bg-[#24A7BC] rounded-tr-[60px] rounded-bl-[60px] mt-8 place-content-center place-items-center">
                         {/* <div className="flex gap-3 h-[110px] w-[290px] border border-[#07A698] bg-[#07A698] rounded-tr-[60px] rounded-bl-[60px] mt-8 place-content-center place-items-center"> */}
                         <div className="h-12 w-12 bg-white rounded-full p-3 place-content-center">
@@ -20,8 +22,9 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute bottom-7 right-5 h-[371px] w-[294px]">
-                    <img className="rounded-tl-[60px] rounded-br-[60px] outline outline-offset-4 outline-2 outline-[#DDE1E7]" src="https://html.rrdevs.net/edcare/assets/img/images/about-img-2.jpg" alt="" />
+                <div className="absolute bottom-7 right-5 h-[371px] w-[294px] ">
+                    {/* <img className="rounded-tl-[60px] rounded-br-[60px] outline outline-offset-4 outline-2 outline-[#DDE1E7]" src="https://html.rrdevs.net/edcare/assets/img/images/about-img-2.jpg" alt="" /> */}
+                    <img className="rounded-tl-[60px] rounded-br-[60px] outline outline-offset-4 outline-2 outline-[#DDE1E7] ml-3" src="https://eduna-template.vercel.app/eduna/assets/images/testimonial/testimonial-2/testimonial-img.png" alt="" />
                 </div>
             </div>
             {/* Right Side */}
