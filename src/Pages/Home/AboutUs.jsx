@@ -4,7 +4,7 @@ import AboutUsTab from "../../components/AboutUs/AboutUsTab";
 
 const AboutUs = () => {
     return (
-        <div className="flex mb-24 max-w-7xl mx-auto">
+        <div className="flex mb-24 max-w-7xl mx-auto gap-16">
             <div className="flex mt-2 w-[620px] h-[550px] relative">
                 <div className="h-[371px] w-[294px]">
                     {/* <img className="mt-3 ml-1 outline outline-offset-4 outline-2 outline-[#DDE1E7] rounded-tr-[60px] rounded-bl-[60px]"
@@ -28,7 +28,8 @@ const AboutUs = () => {
                 </div>
             </div>
             {/* Right Side */}
-            <div className="w-[660px] h-[600px] p-4 space-y-5">
+            {/* <div className="w-[660px] h-[600px] p-4 space-y-5"> */}
+            <div className="w-1/2 h-[600px] p-4 space-y-5">
                 {/* <div className="flex gap-2 p-2 border w-[195px] rounded-full place-content-center place-items-center">
                     <div className="h-7 w-7 rounded-full p-1 bg-[#DAF2F0] place-content-center">
                         <MdElectricBolt className="font-black text-lg m-auto text-[#07A698]" />
